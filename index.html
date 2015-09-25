@@ -1,16 +1,40 @@
 <!DOCTYPE html>
+<!-- HTML documents start with...
+	- a doctype
+	- <html> tag
+		- <head> tag
+			- css... maybe script tags
+		- <body> tag
+			- content...
+  -->
 <html>
-<head>
-	<title>The INDEX</title>
+	<head>
+		<title>The INDEX</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-</head>
-<body>
-	<div id="main">This is a test!!!</div>
+	</head>
+	<body>
+		<p>This is a paragraph tag.</p>
+		<div>This is a div</div>
+		<div id="main">This is a test!!!</div>
 	<div class="middleDiv"><span>CENTER</span></div>
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+		<script>
+			console.log("I just loaded jQuery!");
 
-</body>
+			// here is a simple for loop
+			for (var i=0; i<100; i+=1){
+				console.log("for loop: " + i);
+			}
 
+			// here is a simple while loop
+			var j=0;
+			while (j<100){
+				console.log("while loop: " + j);
+				j+=1;
+			}
+
+		</script>
+	</body>
 
 </html>
