@@ -1,0 +1,30 @@
+body {
+	background-color: orange;
+}
+
+#main {
+	margin: auto;
+    width: 60%;
+    border:3px solid #8AC007;
+    padding: 10px;
+    text-align: center;
+}
+
+.middleDiv {
+    position : absolute;    
+    width    : 200px;
+    height   : 200px;
+    left     : 50%;
+    top      : 50%;
+    margin-left : -100px; /* half of the width  */
+    margin-top  : -100px; /* half of the height */
+    border: 3px solid blue;
+    text-align: center;
+}
+
+span {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 200px;
+}
